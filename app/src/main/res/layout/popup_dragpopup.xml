@@ -5,10 +5,10 @@
     android:orientation="vertical"
     android:padding="10dp">
 
-    <com.imooc.androiduipatterns.custom.progress.HorizontalNumberProgressBar
-        android:id="@+id/pb_number_progress"
+    <Button
+        android:id="@+id/btn_popup_ios_style_showpopup"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:progress="10" />
+        android:layout_height="wrap_content"
+        android:text="Show Popup Dialog" />
 
 </LinearLayout>

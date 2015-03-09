@@ -62,6 +62,7 @@ public class MainPageMenu extends Fragment {
     private void initMenuData() {
         mData.add("UI Patterns");
         mData.add("Custom View");
+        mData.add("Popups");
     }
 
     @Override

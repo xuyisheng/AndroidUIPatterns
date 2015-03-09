@@ -10,26 +10,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Base on system view"
+        android:text="Popup Dialogs"
         android:textSize="20sp" />
 
     <Button
-        android:id="@+id/btn_custom_main_progress"
+        android:id="@+id/btn_popup_main_dragpopup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Custom Progress" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="New view"
-        android:textSize="20sp" />
+        android:text="Drag Popup" />
 
     <Button
-        android:id="@+id/btn_custom_main_water_ripple"
+        android:id="@+id/btn_popup_main_popuplist"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Custom Progress" />
-
+        android:text="Popup List" />
 </LinearLayout>

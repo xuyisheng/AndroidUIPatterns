@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 
 import com.imooc.androiduipatterns.R;
 import com.imooc.androiduipatterns.custom.progress.CustomProgressActivity;
+import com.imooc.androiduipatterns.custom.waterripple.WaterRippleActivity;
 
 public class CustomMainPage extends Fragment implements View.OnClickListener {
 
@@ -16,6 +17,7 @@ public class CustomMainPage extends Fragment implements View.OnClickListener {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.custom_main_page, container, false);
         view.findViewById(R.id.btn_custom_main_progress).setOnClickListener(this);
+        view.findViewById(R.id.btn_custom_main_water_ripple).setOnClickListener(this);
         return view;
     }
 
@@ -24,6 +26,9 @@ public class CustomMainPage extends Fragment implements View.OnClickListener {
         switch (v.getId()) {
             case R.id.btn_custom_main_progress:
                 startActivity(new Intent(getActivity(), CustomProgressActivity.class));
+                break;
+            case R.id.btn_custom_main_water_ripple:
+                startActivity(new Intent(getActivity(), WaterRippleActivity.class));
                 break;
         }
     }

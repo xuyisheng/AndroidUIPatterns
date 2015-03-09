@@ -5,6 +5,7 @@ import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.view.Gravity;
@@ -12,6 +13,7 @@ import android.view.MenuItem;
 
 import com.imooc.androiduipatterns.R;
 import com.imooc.androiduipatterns.custom.CustomMainPage;
+import com.imooc.androiduipatterns.popup.PopupMainPage;
 
 
 public class MainActivity extends Activity
@@ -70,6 +72,9 @@ public class MainActivity extends Activity
         switch (position) {
             case 1:
                 fragment = new CustomMainPage();
+                break;
+            case 2:
+                fragment = new PopupMainPage();
                 break;
             default:
                 fragment = new MainPageContent();

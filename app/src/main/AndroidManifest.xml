@@ -16,7 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".custom.progress.CustomProgressActivity" />
+
+        <activity android:name=".popup.dragpopup.DragPopupActivity" />
+        <activity android:name=".popup.popuplist.PopupListActivity" />
+
     </application>
 
 </manifest>
