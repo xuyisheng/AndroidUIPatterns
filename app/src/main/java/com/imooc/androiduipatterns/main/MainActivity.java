@@ -5,15 +5,17 @@ import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
-import android.os.StrictMode;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.view.Gravity;
 import android.view.MenuItem;
 
 import com.imooc.androiduipatterns.R;
-import com.imooc.androiduipatterns.custom.CustomMainPage;
+import com.imooc.androiduipatterns.blur.BlurMainPage;
+import com.imooc.androiduipatterns.customview.CustomMainPage;
+import com.imooc.androiduipatterns.listview.ListViewMainPage;
 import com.imooc.androiduipatterns.popup.PopupMainPage;
+import com.imooc.androiduipatterns.textview.TextViewMainPage;
 
 
 public class MainActivity extends Activity
@@ -75,6 +77,15 @@ public class MainActivity extends Activity
                 break;
             case 2:
                 fragment = new PopupMainPage();
+                break;
+            case 3:
+                fragment = new ListViewMainPage();
+                break;
+            case 4:
+                fragment = new TextViewMainPage();
+                break;
+            case 5:
+                fragment = new BlurMainPage();
                 break;
             default:
                 fragment = new MainPageContent();

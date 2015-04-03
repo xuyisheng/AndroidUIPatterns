@@ -17,10 +17,17 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".custom.progress.CustomProgressActivity" />
+        <activity android:name=".customview.progress.CustomProgressActivity" />
+        <activity android:name=".customview.progress.SystemProgressStyleActivity" />
+
+        <activity android:name=".customview.customview.ShadowLayoutActivity" />
 
         <activity android:name=".popup.dragpopup.DragPopupActivity" />
         <activity android:name=".popup.popuplist.PopupListActivity" />
+
+        <activity android:name=".listview.emptylist.EmptyOrLoadListViewActivity" />
+        <activity android:name=".listview.scrollscalelist.ScrollScaleListViewActivity" />
+        <activity android:name=".listview.pullzoomlist.PullZoomListViewActivity" />
 
     </application>
 

@@ -10,32 +10,25 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Base on system view"
+        android:text="ListView"
         android:textSize="20sp" />
 
     <Button
-        android:id="@+id/btn_custom_main_progress"
+        android:id="@+id/btn_listview_main_empty"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Custom Progress With Number" />
+        android:text="Empty Or Load ListView" />
 
     <Button
-        android:id="@+id/btn_custom_main_systemstyle_progress"
+        android:id="@+id/btn_listview_scroll_scale"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="System Progress Custom Style" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="New view"
-        android:textSize="20sp" />
+        android:text="Scroll Scale ListView" />
 
     <Button
-        android:id="@+id/btn_custom_custom_shadowview"
+        android:id="@+id/btn_listview_pull_zoom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="CustomView ShadowView" />
+        android:text="Pull Zoom ListView" />
 
 </LinearLayout>

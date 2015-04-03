@@ -63,6 +63,9 @@ public class MainPageMenu extends Fragment {
         mData.add("UI Patterns");
         mData.add("Custom View");
         mData.add("Popups");
+        mData.add("ListView");
+        mData.add("TextView");
+        mData.add("Blur");
     }
 
     @Override

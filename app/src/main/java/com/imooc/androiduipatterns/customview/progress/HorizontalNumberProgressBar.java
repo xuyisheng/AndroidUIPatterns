@@ -1,4 +1,4 @@
-package com.imooc.androiduipatterns.custom.progress;
+package com.imooc.androiduipatterns.customview.progress;
 
 import android.content.Context;
 import android.graphics.Canvas;

@@ -1,4 +1,4 @@
-package com.imooc.androiduipatterns.custom;
+package com.imooc.androiduipatterns.customview;
 
 import android.app.Fragment;
 import android.content.Intent;
@@ -8,8 +8,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.imooc.androiduipatterns.R;
-import com.imooc.androiduipatterns.custom.progress.CustomProgressActivity;
-import com.imooc.androiduipatterns.custom.waterripple.WaterRippleActivity;
+import com.imooc.androiduipatterns.customview.customview.ShadowLayoutActivity;
+import com.imooc.androiduipatterns.customview.progress.CustomProgressActivity;
+import com.imooc.androiduipatterns.customview.progress.SystemProgressStyleActivity;
 
 public class CustomMainPage extends Fragment implements View.OnClickListener {
 
@@ -17,7 +18,8 @@ public class CustomMainPage extends Fragment implements View.OnClickListener {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.custom_main_page, container, false);
         view.findViewById(R.id.btn_custom_main_progress).setOnClickListener(this);
-        view.findViewById(R.id.btn_custom_main_water_ripple).setOnClickListener(this);
+        view.findViewById(R.id.btn_custom_main_systemstyle_progress).setOnClickListener(this);
+        view.findViewById(R.id.btn_custom_custom_shadowview).setOnClickListener(this);
         return view;
     }
 
@@ -27,8 +29,11 @@ public class CustomMainPage extends Fragment implements View.OnClickListener {
             case R.id.btn_custom_main_progress:
                 startActivity(new Intent(getActivity(), CustomProgressActivity.class));
                 break;
-            case R.id.btn_custom_main_water_ripple:
-                startActivity(new Intent(getActivity(), WaterRippleActivity.class));
+            case R.id.btn_custom_main_systemstyle_progress:
+                startActivity(new Intent(getActivity(), SystemProgressStyleActivity.class));
+                break;
+            case R.id.btn_custom_custom_shadowview:
+                startActivity(new Intent(getActivity(), ShadowLayoutActivity.class));
                 break;
         }
     }

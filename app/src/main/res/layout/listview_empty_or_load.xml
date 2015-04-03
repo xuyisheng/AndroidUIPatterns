@@ -2,13 +2,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:orientation="vertical"
-    android:padding="10dp">
+    android:padding="8dp">
 
-    <com.imooc.androiduipatterns.customview.progress.HorizontalNumberProgressBar
-        android:id="@+id/pb_number_progress"
+    <com.imooc.androiduipatterns.listview.emptylist.EmptyOrLoadListView
+        android:id="@+id/lv_empty_load"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:progress="10" />
+        android:layout_height="match_parent" />
 
 </LinearLayout>

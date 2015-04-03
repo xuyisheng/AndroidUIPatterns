@@ -7,4 +7,4 @@
     android:gravity="center"
     android:orientation="vertical"
     android:text="111"
-    android:textSize="20sp" />
+    android:textSize="15sp" />
