@@ -29,6 +29,8 @@
         <activity android:name=".listview.scrollscalelist.ScrollScaleListViewActivity" />
         <activity android:name=".listview.pullzoomlist.PullZoomListViewActivity" />
 
+        <activity android:name=".blur.fastblur.FastBlurActivity" />
+
     </application>
 
 </manifest>
