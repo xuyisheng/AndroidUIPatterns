@@ -31,6 +31,8 @@
 
         <activity android:name=".blur.fastblur.FastBlurActivity" />
 
+        <activity android:name=".textview.marquee.MarqueeTextViewActivity" />
+
     </application>
 
 </manifest>
